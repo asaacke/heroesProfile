@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Hero Map Stats | Heroes Profile</title>
+<meta content="Heroes of the Storm Global Maps - See global Maps for hero Abathur" name="description"/>
+<!-- Open Graph data -->
+<meta content="http://heroesprofile.com/Global/Hero/Maps" property="og:url">
+<meta content="Heroes of the Storm Global Maps - See global Maps for hero Abathur" property="og:description"/>
+<script async="" data-mode="scan" data-site-id="60f587eddd63d722e7e57bc1" src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript"></script>
+<meta content="Heroes Profile" property="og:site_name"/>
+<meta content="http://heroesprofile.com/includes/images/logo/HeroesProfile.jpg" property="og:image"/>
+<meta content="Heroes Profile" property="og:title"/>
+<meta content="website" property="og:type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="/scss/normalize.css" rel="stylesheet"/>
+<link href="/scss/styles.css?version=9.0" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet"/>
+<script src="/includes/js/moments.js"></script>
+<script src="/includes/js/moments-timezone.js"></script>
+<script src="/includes/js/latinize.js"></script>
+<script src="/includes/js/multiple-select.js"></script>
+<link href="/includes/js/multiple-select.css" rel="stylesheet"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="/scss/mobile.css?version=2.0" rel="stylesheet"/>
+<script>
+      $(document).ready(function(){  $('.multi-select').multipleSelect();
+    });
+    </script>
+<style>.ms-drop{min-height:120px;}</style>
+</meta></head>
+<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-119951172-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-119951172-1');
+</script>
+<header>
+<style>
+  .white-popup {
+    position: relative;
+    background: black;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    color:white;
+  }</style>
+<script async="" data-ad-client="ca-pub-5768621983477891" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+
+  $('.sb-stat').each(function() {
+    var $this = $(this),
+    countTo = $this.attr('data-count');
+
+    $({ countNum: $this.text()}).animate({
+      countNum: countTo
+    },
+
+    {
+
+      duration: 1000,
+      easing:'linear',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+        //alert('finished');
+      }
+
+    });
+
+
+
+  });
+  var breakpointMobile = false;
+  var breakpointTablet = false;
+if (window.innerWidth < 1000){
+  breakpointTablet = true;
+}
+if (window.innerWidth < 700){
+  breakpointMobile = true;
+}
+
+
+
+</script>
+<div class="menu-stat-bar"><div class="smaller-logo-wrapper"><div class="logo-wrapper"><a href="/"><h1>Heroes</h1>
+<img src="/includes/images/logo/heroesprofilelogo.png"/><h1>Profile</h1></a></div>
+</div>
+<div class="header-buttons" style="align-content:center;">
+<a class="patreon-button" href="https://api.heroesprofile.com" style="background-color:#007272; margin-right:auto;" target="_blank">Heroes Profile API</a>
+<a class="patreon-button" href="https://api.heroesprofile.com/upload" style="background-color:#315bb6; margin-right:auto;" target="_blank">Uploader</a>
+<a class="patreon-button" href="https://www.patreon.com/heroesprofile" style="margin-left:auto;" target="_blank">Remove Ads / Patreon</a>
+</div>
+</div>
+<div class="expand-menu mobile-menu-trigger"><span style="margin-right:10px;">Menu</span><i class="fas fa-bars"></i></div>
+<div class="mobile-menu-wrapper"><div class="menu-wrapper">
+<div class="menu-bar">
+<ul class="mega-menu main-menu">
+<li class="top-level-menu">Global Hero Stats
+    <div class="mega-menu-section">
+<ul>
+<li><a href="/Global/Hero">Hero Stats</a></li>
+<li><a href="/Global/Talents">Talents Stats</a></li>
+<li><a href="/Global/Hero/Maps">Map Stats</a></li>
+<li><a href="/Global/Matchups">Matchups Stats</a></li>
+<li><a href="/Global/Matchups/Talents">Matchup Talent Stats</a></li>
+<li><a href="/Global/Compositions">Compositional Stats</a></li>
+<li><a href="/Global/Draft/General">Draft Stats</a></li>
+<li><a href="/Global/Party">Party Stats</a></li>
+<li><a href="/Global/Extra">Extra Stats</a></li>
+</ul>
+</div>
+</li>
+<li><div class="main-link"><a href="/Global/Leaderboard">Leaderboards</a></div></li>
+<li class="top-level-menu">Tools
+    <div class="mega-menu-section">
+<ul>
+<li><a href="/Global/TalentBuilder">Talent Builder</a></li>
+<li><a href="/Compare">Compare</a></li>
+<li><a href="https://drafter.heroesprofile.com/" target="_blank">Drafter</a></li>
+<li><a href="https://dev.heroesprofile.com/" target="_blank">Game Data</a></li>
+<li><a href="https://api.heroesprofile.com/upload" target="_blank">Replay Uploader</a></li>
+<li><a href="/Activity">Activity Graphs</a></li>
+<li><a href="https://autobattler.setup.heroesprofile.com/" target="_blank">Auto Battler</a></li>
+</ul>
+</div>
+</li>
+<li><div class="main-link"><a href="/Esports">Community Esports</a></div></li>
+<li><div class="main-link bold"><a href="/">Set Active Battletag</a></div></li> </ul>
+<div class="new-hero mobile-hide"> <div class="search-bar">
+<form action="/Search" id="overall-battletag-search">
+<input id="main-search" name="searched_battletag" placeholder="Enter a Battletag" type="text"/>
+<input type="submit" value="Find a Player"/>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="flyout-menu">
+</div>
+<script>
+
+
+
+$('.mobile-menu-trigger').click(function(){
+$('.mobile-menu-wrapper').slideToggle();
+});
+
+$('.mobile-menu-wrapper .top-level-menu').click(function(e){
+
+  $('.mega-menu-section').hide();
+
+  $(this).find('.mega-menu-section').show();
+});
+$(document).ready(function(){
+
+
+$('.secondary-flyout-menu').click(function(e){
+  $(this).find('.menu-sub').show().attr('opacity', 1).attr('position', 'relative');
+});
+});
+
+
+
+
+
+</script>
+</div>
+<script>
+
+
+
+if(document.referrer.indexOf(window.location.hostname) != -1 && location.pathname != "/"){
+  $('.back-wrapper').show();
+}
+else {
+
+  $('.back-wrapper').hide();
+
+}
+
+const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "";
+    script.async = true;
+    script.dataset.cfasync = false;
+    document.body.appendChild(script);
+    script.addEventListener("load", () => {
+      console.log("Script added successfully");
+      resolve();
+    });
+
+
+window.top.__vm_add = window.top.__vm_add || [];
+
+
+
+function squareAd(element){
+    var dynamicBanner = document.createElement('div');
+  dynamicBanner.setAttribute('class', 'vm-placement');
+  if (breakpointTablet == true){
+    dynamicBanner.setAttribute('data-id', '60f5939d46e4640fd9497d35'); // Mobile Dynamic Banner
+  }
+  else{
+
+    dynamicBanner.setAttribute('data-id', '60f5939d46e4640fd9497d35'); // Desktop Dynamic Banner
+
+  }
+  element.append(dynamicBanner);
+  window.top.__vm_add.push(dynamicBanner);
+
+}
+
+function dynamicAd(element){
+    var dynamicBanner = document.createElement('div');
+  dynamicBanner.setAttribute('class', 'vm-placement');
+  if (breakpointTablet == true){
+    dynamicBanner.setAttribute('data-id', '60f593cedd63d722e7e57bc8'); // Mobile Dynamic Banner
+  }
+  else{
+
+    dynamicBanner.setAttribute('data-id', '60f593ac46e4640fd9497d39'); // Desktop Dynamic Banner
+
+  }
+  element.append(dynamicBanner);
+  window.top.__vm_add.push(dynamicBanner);
+
+}
+
+
+function horizontalAd(element){
+    var dynamicBanner = document.createElement('div');
+  dynamicBanner.setAttribute('class', 'vm-placement');
+  if (breakpointTablet == true){
+    dynamicBanner.setAttribute('data-id', '60f593cedd63d722e7e57bc8'); // Mobile Dynamic Banner
+  }
+  else{
+
+    dynamicBanner.setAttribute('data-id', '60f593a446e4640fd9497d37'); // Desktop static Banner
+
+  }
+  element.append(dynamicBanner);
+  window.top.__vm_add.push(dynamicBanner);
+
+}
+
+
+
+$('document').ready(function(){
+
+
+
+
+$('.adSquareDynamic').each(function(){
+  squareAd($(this));
+})
+
+
+
+
+
+  $('.adDynamicBanner').each(function(){
+    dynamicAd($(this));
+ /*var dynamicBanner = document.createElement('div');
+
+
+ dynamicBanner.setAttribute('class', 'vm-placement');
+
+
+if (breakpointTablet == true){
+  dynamicBanner.setAttribute('data-id', '60f593cedd63d722e7e57bc8'); // Mobile Dynamic Banner
+}
+else{
+
+  dynamicBanner.setAttribute('data-id', '60f593ac46e4640fd9497d39'); // Desktop Dynamic Banner
+
+}
+
+$(this).append(dynamicBanner);
+window.top.__vm_add.push(dynamicBanner);*/
+
+});
+
+$('.adHorizontalBanner').each(function(){
+  horizontalAd($(this));
+})
+var pagesToExclude = ['/PreMatch/Results/index.php'];
+if (breakpointTablet != true && pagesToExclude.indexOf('/Global/Hero/Maps/index.php' < 0) ){
+    var videoAd = document.createElement('div');
+  videoAd.setAttribute('class', 'vm-placement');
+  videoAd.setAttribute('display', 'none');
+  videoAd.setAttribute('data-id','60f59381dd63d722e7e57bc4');
+  $('.videoWrapper').append(videoAd);
+  window.top.__vm_add.push(videoAd);
+  }
+
+});
+
+
+
+
+
+
+
+
+</script>
+<div class="adHorizontalBanner"></div>
+<div class="videoWrapper"></div>
+</header>
+<div class="main-content dashboard">
+<form class="no-flex" id="filter-form">
+<div class="player-name"><h2>Hero Map Statistics</h2>
+</div>
+</form>
+<section style="padding-top:0; padding-bottom:0;">
+<p class="section-callout">Hero Maps provide information on which maps are good for each hero.</p>
+</section>
+<section id="show-heroes">
+<form id="hero-search"><div class="all-heroes-search">
+<input autocapitalize="off" autocomplete="off" autocorrect="off" id="filter-hero" placeholder="Search Heroes" spellcheck="false" type="text"/>
+</div></form>
+<script>
+            $('#hero-search').submit(function(e){
+              e.preventDefault();
+
+                $('html, body').animate({
+                    scrollTop: $(".hero-wrapper").offset().top
+                }, 2000);
+
+            });
+
+            $('#filter-hero').on('input', function() {
+
+
+              if($('#filter-hero').val() != ''){
+
+              $('.hero-wrapper .popup-trigger').each(function(){
+            var filterhero = $('#filter-hero').val().toLowerCase().latinize().replace(/[^\w\s]/gi, '');
+            var heroname = $(this).data('heroname').toLowerCase().latinize().replace(/[^\w\s]/gi, '');
+
+            ////console.log(filterhero);
+            ////console.log(heroname);
+                if(heroname.indexOf(filterhero) != -1){
+                  $(this).show();
+                }
+                else{
+                  $(this).hide();
+                }
+
+              });
+            }
+            else{
+              $('.popup-trigger').show();
+            }
+          });
+            </script>
+<style>#show-heroes .popup-trigger{margin:.2em;}</style>
+<div class="hero-wrapper">
+<div class="popup-trigger" data-heroname="Abathur">
+<div class="hero-picture">
+<a alt="Abathur Maps" href="?hero=Abathur"> <img alt="Abathur" src="/includes/images/heroes/abathur.png"/></a>
+</div>
+<div class="popup">
+<h4>Abathur</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Alarak">
+<div class="hero-picture">
+<a alt="Alarak Maps" href="?hero=Alarak"> <img alt="Alarak" src="/includes/images/heroes/alarak.png"/></a>
+</div>
+<div class="popup">
+<h4>Alarak</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Alexstrasza">
+<div class="hero-picture">
+<a alt="Alexstrasza Maps" href="?hero=Alexstrasza"> <img alt="Alexstrasza" src="/includes/images/heroes/alexstrasza.png"/></a>
+</div>
+<div class="popup">
+<h4>Alexstrasza</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Ana">
+<div class="hero-picture">
+<a alt="Ana Maps" href="?hero=Ana"> <img alt="Ana" src="/includes/images/heroes/ana.png"/></a>
+</div>
+<div class="popup">
+<h4>Ana</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Anduin">
+<div class="hero-picture">
+<a alt="Anduin Maps" href="?hero=Anduin"> <img alt="Anduin" src="/includes/images/heroes/anduin.png"/></a>
+</div>
+<div class="popup">
+<h4>Anduin</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Anub'arak">
+<div class="hero-picture">
+<a alt="Anub'arak Maps" href="?hero=Anub'arak"> <img alt="Anub'arak" src="/includes/images/heroes/anubarak.png"/></a>
+</div>
+<div class="popup">
+<h4>Anub'arak</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Artanis">
+<div class="hero-picture">
+<a alt="Artanis Maps" href="?hero=Artanis"> <img alt="Artanis" src="/includes/images/heroes/artanis.png"/></a>
+</div>
+<div class="popup">
+<h4>Artanis</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Arthas">
+<div class="hero-picture">
+<a alt="Arthas Maps" href="?hero=Arthas"> <img alt="Arthas" src="/includes/images/heroes/arthas.png"/></a>
+</div>
+<div class="popup">
+<h4>Arthas</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Auriel">
+<div class="hero-picture">
+<a alt="Auriel Maps" href="?hero=Auriel"> <img alt="Auriel" src="/includes/images/heroes/auriel.png"/></a>
+</div>
+<div class="popup">
+<h4>Auriel</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Azmodan">
+<div class="hero-picture">
+<a alt="Azmodan Maps" href="?hero=Azmodan"> <img alt="Azmodan" src="/includes/images/heroes/azmodan.png"/></a>
+</div>
+<div class="popup">
+<h4>Azmodan</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Blaze">
+<div class="hero-picture">
+<a alt="Blaze Maps" href="?hero=Blaze"> <img alt="Blaze" src="/includes/images/heroes/blaze.png"/></a>
+</div>
+<div class="popup">
+<h4>Blaze</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Brightwing">
+<div class="hero-picture">
+<a alt="Brightwing Maps" href="?hero=Brightwing"> <img alt="Brightwing" src="/includes/images/heroes/brightwing.png"/></a>
+</div>
+<div class="popup">
+<h4>Brightwing</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Cassia">
+<div class="hero-picture">
+<a alt="Cassia Maps" href="?hero=Cassia"> <img alt="Cassia" src="/includes/images/heroes/cassia.png"/></a>
+</div>
+<div class="popup">
+<h4>Cassia</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Chen">
+<div class="hero-picture">
+<a alt="Chen Maps" href="?hero=Chen"> <img alt="Chen" src="/includes/images/heroes/chen.png"/></a>
+</div>
+<div class="popup">
+<h4>Chen</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Cho">
+<div class="hero-picture">
+<a alt="Cho Maps" href="?hero=Cho"> <img alt="Cho" src="/includes/images/heroes/cho.png"/></a>
+</div>
+<div class="popup">
+<h4>Cho</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Chromie">
+<div class="hero-picture">
+<a alt="Chromie Maps" href="?hero=Chromie"> <img alt="Chromie" src="/includes/images/heroes/chromie.png"/></a>
+</div>
+<div class="popup">
+<h4>Chromie</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="D.Va">
+<div class="hero-picture">
+<a alt="D.Va Maps" href="?hero=D.Va"> <img alt="D.Va" src="/includes/images/heroes/dva.png"/></a>
+</div>
+<div class="popup">
+<h4>D.Va</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Deathwing">
+<div class="hero-picture">
+<a alt="Deathwing Maps" href="?hero=Deathwing"> <img alt="Deathwing" src="/includes/images/heroes/deathwing.png"/></a>
+</div>
+<div class="popup">
+<h4>Deathwing</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Deckard">
+<div class="hero-picture">
+<a alt="Deckard Maps" href="?hero=Deckard"> <img alt="Deckard" src="/includes/images/heroes/deckard.png"/></a>
+</div>
+<div class="popup">
+<h4>Deckard</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Dehaka">
+<div class="hero-picture">
+<a alt="Dehaka Maps" href="?hero=Dehaka"> <img alt="Dehaka" src="/includes/images/heroes/dehaka.png"/></a>
+</div>
+<div class="popup">
+<h4>Dehaka</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Diablo">
+<div class="hero-picture">
+<a alt="Diablo Maps" href="?hero=Diablo"> <img alt="Diablo" src="/includes/images/heroes/diablo.png"/></a>
+</div>
+<div class="popup">
+<h4>Diablo</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="E.T.C.">
+<div class="hero-picture">
+<a alt="E.T.C. Maps" href="?hero=E.T.C."> <img alt="E.T.C." src="/includes/images/heroes/etc.png"/></a>
+</div>
+<div class="popup">
+<h4>E.T.C.</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Falstad">
+<div class="hero-picture">
+<a alt="Falstad Maps" href="?hero=Falstad"> <img alt="Falstad" src="/includes/images/heroes/falstad.png"/></a>
+</div>
+<div class="popup">
+<h4>Falstad</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Fenix">
+<div class="hero-picture">
+<a alt="Fenix Maps" href="?hero=Fenix"> <img alt="Fenix" src="/includes/images/heroes/fenix.png"/></a>
+</div>
+<div class="popup">
+<h4>Fenix</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Gall">
+<div class="hero-picture">
+<a alt="Gall Maps" href="?hero=Gall"> <img alt="Gall" src="/includes/images/heroes/gall.png"/></a>
+</div>
+<div class="popup">
+<h4>Gall</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Garrosh">
+<div class="hero-picture">
+<a alt="Garrosh Maps" href="?hero=Garrosh"> <img alt="Garrosh" src="/includes/images/heroes/garrosh.png"/></a>
+</div>
+<div class="popup">
+<h4>Garrosh</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Gazlowe">
+<div class="hero-picture">
+<a alt="Gazlowe Maps" href="?hero=Gazlowe"> <img alt="Gazlowe" src="/includes/images/heroes/gazlowe.png"/></a>
+</div>
+<div class="popup">
+<h4>Gazlowe</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Genji">
+<div class="hero-picture">
+<a alt="Genji Maps" href="?hero=Genji"> <img alt="Genji" src="/includes/images/heroes/genji.png"/></a>
+</div>
+<div class="popup">
+<h4>Genji</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Greymane">
+<div class="hero-picture">
+<a alt="Greymane Maps" href="?hero=Greymane"> <img alt="Greymane" src="/includes/images/heroes/greymane.png"/></a>
+</div>
+<div class="popup">
+<h4>Greymane</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Gul'dan">
+<div class="hero-picture">
+<a alt="Gul'dan Maps" href="?hero=Gul'dan"> <img alt="Gul'dan" src="/includes/images/heroes/guldan.png"/></a>
+</div>
+<div class="popup">
+<h4>Gul'dan</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Hanzo">
+<div class="hero-picture">
+<a alt="Hanzo Maps" href="?hero=Hanzo"> <img alt="Hanzo" src="/includes/images/heroes/hanzo.png"/></a>
+</div>
+<div class="popup">
+<h4>Hanzo</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Hogger">
+<div class="hero-picture">
+<a alt="Hogger Maps" href="?hero=Hogger"> <img alt="Hogger" src="/includes/images/heroes/hogger.png"/></a>
+</div>
+<div class="popup">
+<h4>Hogger</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Illidan">
+<div class="hero-picture">
+<a alt="Illidan Maps" href="?hero=Illidan"> <img alt="Illidan" src="/includes/images/heroes/illidan.png"/></a>
+</div>
+<div class="popup">
+<h4>Illidan</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Imperius">
+<div class="hero-picture">
+<a alt="Imperius Maps" href="?hero=Imperius"> <img alt="Imperius" src="/includes/images/heroes/imperius.png"/></a>
+</div>
+<div class="popup">
+<h4>Imperius</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Jaina">
+<div class="hero-picture">
+<a alt="Jaina Maps" href="?hero=Jaina"> <img alt="Jaina" src="/includes/images/heroes/jaina.png"/></a>
+</div>
+<div class="popup">
+<h4>Jaina</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Johanna">
+<div class="hero-picture">
+<a alt="Johanna Maps" href="?hero=Johanna"> <img alt="Johanna" src="/includes/images/heroes/johanna.png"/></a>
+</div>
+<div class="popup">
+<h4>Johanna</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Junkrat">
+<div class="hero-picture">
+<a alt="Junkrat Maps" href="?hero=Junkrat"> <img alt="Junkrat" src="/includes/images/heroes/junkrat.png"/></a>
+</div>
+<div class="popup">
+<h4>Junkrat</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Kael'thas">
+<div class="hero-picture">
+<a alt="Kael'thas Maps" href="?hero=Kael'thas"> <img alt="Kael'thas" src="/includes/images/heroes/kaelthas.png"/></a>
+</div>
+<div class="popup">
+<h4>Kael'thas</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Kel'Thuzad">
+<div class="hero-picture">
+<a alt="Kel'Thuzad Maps" href="?hero=Kel'Thuzad"> <img alt="Kel'Thuzad" src="/includes/images/heroes/kelthuzad.png"/></a>
+</div>
+<div class="popup">
+<h4>Kel'Thuzad</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Kerrigan">
+<div class="hero-picture">
+<a alt="Kerrigan Maps" href="?hero=Kerrigan"> <img alt="Kerrigan" src="/includes/images/heroes/kerrigan.png"/></a>
+</div>
+<div class="popup">
+<h4>Kerrigan</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Kharazim">
+<div class="hero-picture">
+<a alt="Kharazim Maps" href="?hero=Kharazim"> <img alt="Kharazim" src="/includes/images/heroes/kharazim.png"/></a>
+</div>
+<div class="popup">
+<h4>Kharazim</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Leoric">
+<div class="hero-picture">
+<a alt="Leoric Maps" href="?hero=Leoric"> <img alt="Leoric" src="/includes/images/heroes/leoric.png"/></a>
+</div>
+<div class="popup">
+<h4>Leoric</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Li Li">
+<div class="hero-picture">
+<a alt="Li Li Maps" href="?hero=Li Li"> <img alt="Li Li" src="/includes/images/heroes/lili.png"/></a>
+</div>
+<div class="popup">
+<h4>Li Li</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Li-Ming">
+<div class="hero-picture">
+<a alt="Li-Ming Maps" href="?hero=Li-Ming"> <img alt="Li-Ming" src="/includes/images/heroes/liming.png"/></a>
+</div>
+<div class="popup">
+<h4>Li-Ming</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Lt. Morales">
+<div class="hero-picture">
+<a alt="Lt. Morales Maps" href="?hero=Lt. Morales"> <img alt="Lt. Morales" src="/includes/images/heroes/ltmorales.png"/></a>
+</div>
+<div class="popup">
+<h4>Lt. Morales</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Lúcio">
+<div class="hero-picture">
+<a alt="Lúcio Maps" href="?hero=Lúcio"> <img alt="Lúcio" src="/includes/images/heroes/lucio.png"/></a>
+</div>
+<div class="popup">
+<h4>Lúcio</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Lunara">
+<div class="hero-picture">
+<a alt="Lunara Maps" href="?hero=Lunara"> <img alt="Lunara" src="/includes/images/heroes/lunara.png"/></a>
+</div>
+<div class="popup">
+<h4>Lunara</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Maiev">
+<div class="hero-picture">
+<a alt="Maiev Maps" href="?hero=Maiev"> <img alt="Maiev" src="/includes/images/heroes/maiev.png"/></a>
+</div>
+<div class="popup">
+<h4>Maiev</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Mal'Ganis">
+<div class="hero-picture">
+<a alt="Mal'Ganis Maps" href="?hero=Mal'Ganis"> <img alt="Mal'Ganis" src="/includes/images/heroes/malganis.png"/></a>
+</div>
+<div class="popup">
+<h4>Mal'Ganis</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Malfurion">
+<div class="hero-picture">
+<a alt="Malfurion Maps" href="?hero=Malfurion"> <img alt="Malfurion" src="/includes/images/heroes/malfurion.png"/></a>
+</div>
+<div class="popup">
+<h4>Malfurion</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Malthael">
+<div class="hero-picture">
+<a alt="Malthael Maps" href="?hero=Malthael"> <img alt="Malthael" src="/includes/images/heroes/malthael.png"/></a>
+</div>
+<div class="popup">
+<h4>Malthael</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Medivh">
+<div class="hero-picture">
+<a alt="Medivh Maps" href="?hero=Medivh"> <img alt="Medivh" src="/includes/images/heroes/medivh.png"/></a>
+</div>
+<div class="popup">
+<h4>Medivh</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Mei">
+<div class="hero-picture">
+<a alt="Mei Maps" href="?hero=Mei"> <img alt="Mei" src="/includes/images/heroes/mei.png"/></a>
+</div>
+<div class="popup">
+<h4>Mei</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Mephisto">
+<div class="hero-picture">
+<a alt="Mephisto Maps" href="?hero=Mephisto"> <img alt="Mephisto" src="/includes/images/heroes/mephisto.png"/></a>
+</div>
+<div class="popup">
+<h4>Mephisto</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Muradin">
+<div class="hero-picture">
+<a alt="Muradin Maps" href="?hero=Muradin"> <img alt="Muradin" src="/includes/images/heroes/muradin.png"/></a>
+</div>
+<div class="popup">
+<h4>Muradin</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Murky">
+<div class="hero-picture">
+<a alt="Murky Maps" href="?hero=Murky"> <img alt="Murky" src="/includes/images/heroes/murky.png"/></a>
+</div>
+<div class="popup">
+<h4>Murky</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Nazeebo">
+<div class="hero-picture">
+<a alt="Nazeebo Maps" href="?hero=Nazeebo"> <img alt="Nazeebo" src="/includes/images/heroes/nazeebo.png"/></a>
+</div>
+<div class="popup">
+<h4>Nazeebo</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Nova">
+<div class="hero-picture">
+<a alt="Nova Maps" href="?hero=Nova"> <img alt="Nova" src="/includes/images/heroes/nova.png"/></a>
+</div>
+<div class="popup">
+<h4>Nova</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Orphea">
+<div class="hero-picture">
+<a alt="Orphea Maps" href="?hero=Orphea"> <img alt="Orphea" src="/includes/images/heroes/orphea.png"/></a>
+</div>
+<div class="popup">
+<h4>Orphea</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Probius">
+<div class="hero-picture">
+<a alt="Probius Maps" href="?hero=Probius"> <img alt="Probius" src="/includes/images/heroes/probius.png"/></a>
+</div>
+<div class="popup">
+<h4>Probius</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Qhira">
+<div class="hero-picture">
+<a alt="Qhira Maps" href="?hero=Qhira"> <img alt="Qhira" src="/includes/images/heroes/qhira.png"/></a>
+</div>
+<div class="popup">
+<h4>Qhira</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Ragnaros">
+<div class="hero-picture">
+<a alt="Ragnaros Maps" href="?hero=Ragnaros"> <img alt="Ragnaros" src="/includes/images/heroes/ragnaros.png"/></a>
+</div>
+<div class="popup">
+<h4>Ragnaros</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Raynor">
+<div class="hero-picture">
+<a alt="Raynor Maps" href="?hero=Raynor"> <img alt="Raynor" src="/includes/images/heroes/raynor.png"/></a>
+</div>
+<div class="popup">
+<h4>Raynor</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Rehgar">
+<div class="hero-picture">
+<a alt="Rehgar Maps" href="?hero=Rehgar"> <img alt="Rehgar" src="/includes/images/heroes/rehgar.png"/></a>
+</div>
+<div class="popup">
+<h4>Rehgar</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Rexxar">
+<div class="hero-picture">
+<a alt="Rexxar Maps" href="?hero=Rexxar"> <img alt="Rexxar" src="/includes/images/heroes/rexxar.png"/></a>
+</div>
+<div class="popup">
+<h4>Rexxar</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Samuro">
+<div class="hero-picture">
+<a alt="Samuro Maps" href="?hero=Samuro"> <img alt="Samuro" src="/includes/images/heroes/samuro.png"/></a>
+</div>
+<div class="popup">
+<h4>Samuro</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Sgt. Hammer">
+<div class="hero-picture">
+<a alt="Sgt. Hammer Maps" href="?hero=Sgt. Hammer"> <img alt="Sgt. Hammer" src="/includes/images/heroes/sgthammer.png"/></a>
+</div>
+<div class="popup">
+<h4>Sgt. Hammer</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Sonya">
+<div class="hero-picture">
+<a alt="Sonya Maps" href="?hero=Sonya"> <img alt="Sonya" src="/includes/images/heroes/sonya.png"/></a>
+</div>
+<div class="popup">
+<h4>Sonya</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Stitches">
+<div class="hero-picture">
+<a alt="Stitches Maps" href="?hero=Stitches"> <img alt="Stitches" src="/includes/images/heroes/stitches.png"/></a>
+</div>
+<div class="popup">
+<h4>Stitches</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Stukov">
+<div class="hero-picture">
+<a alt="Stukov Maps" href="?hero=Stukov"> <img alt="Stukov" src="/includes/images/heroes/stukov.png"/></a>
+</div>
+<div class="popup">
+<h4>Stukov</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Sylvanas">
+<div class="hero-picture">
+<a alt="Sylvanas Maps" href="?hero=Sylvanas"> <img alt="Sylvanas" src="/includes/images/heroes/sylvanas.png"/></a>
+</div>
+<div class="popup">
+<h4>Sylvanas</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Tassadar">
+<div class="hero-picture">
+<a alt="Tassadar Maps" href="?hero=Tassadar"> <img alt="Tassadar" src="/includes/images/heroes/tassadar.png"/></a>
+</div>
+<div class="popup">
+<h4>Tassadar</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="The Butcher">
+<div class="hero-picture">
+<a alt="The Butcher Maps" href="?hero=The Butcher"> <img alt="The Butcher" src="/includes/images/heroes/thebutcher.png"/></a>
+</div>
+<div class="popup">
+<h4>The Butcher</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="The Lost Vikings">
+<div class="hero-picture">
+<a alt="The Lost Vikings Maps" href="?hero=The Lost Vikings"> <img alt="The Lost Vikings" src="/includes/images/heroes/thelostvikings.png"/></a>
+</div>
+<div class="popup">
+<h4>The Lost Vikings</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Thrall">
+<div class="hero-picture">
+<a alt="Thrall Maps" href="?hero=Thrall"> <img alt="Thrall" src="/includes/images/heroes/thrall.png"/></a>
+</div>
+<div class="popup">
+<h4>Thrall</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Tracer">
+<div class="hero-picture">
+<a alt="Tracer Maps" href="?hero=Tracer"> <img alt="Tracer" src="/includes/images/heroes/tracer.png"/></a>
+</div>
+<div class="popup">
+<h4>Tracer</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Tychus">
+<div class="hero-picture">
+<a alt="Tychus Maps" href="?hero=Tychus"> <img alt="Tychus" src="/includes/images/heroes/tychus.png"/></a>
+</div>
+<div class="popup">
+<h4>Tychus</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Tyrael">
+<div class="hero-picture">
+<a alt="Tyrael Maps" href="?hero=Tyrael"> <img alt="Tyrael" src="/includes/images/heroes/tyrael.png"/></a>
+</div>
+<div class="popup">
+<h4>Tyrael</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Tyrande">
+<div class="hero-picture">
+<a alt="Tyrande Maps" href="?hero=Tyrande"> <img alt="Tyrande" src="/includes/images/heroes/tyrande.png"/></a>
+</div>
+<div class="popup">
+<h4>Tyrande</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Uther">
+<div class="hero-picture">
+<a alt="Uther Maps" href="?hero=Uther"> <img alt="Uther" src="/includes/images/heroes/uther.png"/></a>
+</div>
+<div class="popup">
+<h4>Uther</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Valeera">
+<div class="hero-picture">
+<a alt="Valeera Maps" href="?hero=Valeera"> <img alt="Valeera" src="/includes/images/heroes/valeera.png"/></a>
+</div>
+<div class="popup">
+<h4>Valeera</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Valla">
+<div class="hero-picture">
+<a alt="Valla Maps" href="?hero=Valla"> <img alt="Valla" src="/includes/images/heroes/valla.png"/></a>
+</div>
+<div class="popup">
+<h4>Valla</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Varian">
+<div class="hero-picture">
+<a alt="Varian Maps" href="?hero=Varian"> <img alt="Varian" src="/includes/images/heroes/varian.png"/></a>
+</div>
+<div class="popup">
+<h4>Varian</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Whitemane">
+<div class="hero-picture">
+<a alt="Whitemane Maps" href="?hero=Whitemane"> <img alt="Whitemane" src="/includes/images/heroes/whitemane.png"/></a>
+</div>
+<div class="popup">
+<h4>Whitemane</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Xul">
+<div class="hero-picture">
+<a alt="Xul Maps" href="?hero=Xul"> <img alt="Xul" src="/includes/images/heroes/xul.png"/></a>
+</div>
+<div class="popup">
+<h4>Xul</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Yrel">
+<div class="hero-picture">
+<a alt="Yrel Maps" href="?hero=Yrel"> <img alt="Yrel" src="/includes/images/heroes/yrel.png"/></a>
+</div>
+<div class="popup">
+<h4>Yrel</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Zagara">
+<div class="hero-picture">
+<a alt="Zagara Maps" href="?hero=Zagara"> <img alt="Zagara" src="/includes/images/heroes/zagara.png"/></a>
+</div>
+<div class="popup">
+<h4>Zagara</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Zarya">
+<div class="hero-picture">
+<a alt="Zarya Maps" href="?hero=Zarya"> <img alt="Zarya" src="/includes/images/heroes/zarya.png"/></a>
+</div>
+<div class="popup">
+<h4>Zarya</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Zeratul">
+<div class="hero-picture">
+<a alt="Zeratul Maps" href="?hero=Zeratul"> <img alt="Zeratul" src="/includes/images/heroes/zeratul.png"/></a>
+</div>
+<div class="popup">
+<h4>Zeratul</h4>
+</div>
+</div>
+<div class="popup-trigger" data-heroname="Zul'jin">
+<div class="hero-picture">
+<a alt="Zul'jin Maps" href="?hero=Zul'jin"> <img alt="Zul'jin" src="/includes/images/heroes/zuljin.png"/></a>
+</div>
+<div class="popup">
+<h4>Zul'jin</h4>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+
+
+      var loaded = true;
+
+      var formData = {
+                                      'timeframe' : "2.55.3.89754",
+                                        'timeframe_type' : "minor",
+                                        'region' : "",
+                                        'league_tier' : "",
+                                        'hero_league_tier' : "",
+                                        'role_league_tier' : "",
+                                        'game_type' : "sl",
+                                        'hero' : "Abathur",
+                                        'role' : "",
+                                        'hero' : "Abathur",
+                                        'hero_level' : "",
+                                        'mirror' : "",
+                    
+              };
+      $('.leaderboard').submit(function(e){
+
+        e.preventDefault();
+        var timeframeValues = "";
+        var regionValues = "";
+
+        if($('#timeframe_type').find(":selected").val() == "minor"){
+          var timeframeValues = $('#minor_timeframe').val();
+
+        }else if($('#timeframe_type').find(":selected").val() == "major"){
+          var timeframeValues = $('#major_timeframe').val();
+
+        }else if($('#timeframe_type').find(":selected").val() == "days"){
+          var timeframeValues = $('#days_timeframe').val();
+        }
+
+        if( $('[data-name="selectAllregion[]"]').parent().parent().hasClass('selected') === false){
+           regionValues = "&region="+Array.from(document.getElementById("region").options).filter(option => option.selected).map(option => option.value).join();
+        }
+
+   var leagueTierValues = '';
+   var heroLeagueTierValues = '';
+   var roleLeagueTierValues = '';
+   var gametypeValues = Array.from(document.getElementById("game_type").options).filter(option => option.selected).map(option => option.value);
+   var heroLevelValues = '';
+   var heroValue = $('#hero').val();
+
+   var mirrorValue = "";
+   if($('#mirror').val() != ""){
+     var mirrorValue = "&mirror="+$('#mirror').val();
+   }
+
+   var timeFrameType = $('#timeframe_type').find(":selected").val();
+
+   if( $('[data-name="selectAllhero_level[]"]').parent().parent().hasClass('selected') === false){
+      heroLevelValues = "&hero_level="+Array.from(document.getElementById("hero_level").options).filter(option => option.selected).map(option => option.value).join();
+   }
+
+   if( $('[data-name="selectAllleague_tier[]"]').parent().parent().hasClass('selected') === false){
+      leagueTierValues = "&league_tier=" + Array.from(document.getElementById("league_tier").options).filter(option => option.selected).map(option => option.value).join();
+   }
+   if( $('[data-name="selectAllhero_league_tier[]"]').parent().parent().hasClass('selected') === false){
+      heroLeagueTierValues = "&hero_league_tier=" + Array.from(document.getElementById("hero_league_tier").options).filter(option => option.selected).map(option => option.value).join();
+   }
+
+   if( $('[data-name="selectAllrole_league_tier[]"]').parent().parent().hasClass('selected') === false){
+      roleLeagueTierValues = "&role_league_tier=" + Array.from(document.getElementById("role_league_tier").options).filter(option => option.selected).map(option => option.value).join();
+   }
+
+   window.location ='/Global/Hero/Maps/?hero='+heroValue+'&timeframe_type='+timeFrameType+"&timeframe="+timeframeValues+regionValues+heroLevelValues+"&game_type="+gametypeValues.join()+leagueTierValues+heroLeagueTierValues+roleLeagueTierValues+mirrorValue;
+
+      });
+
+
+
+
+      $('#filter-form select').change(function(){
+        selectWidth();
+      $('.leaderboard').submit();
+      $('#filter-form select').attr('disabled', 'disabled');
+      });
+
+
+      function sortTable(f,n){
+      	var rows = $('#map-data tbody  tr').get();
+
+      	rows.sort(function(a, b) {
+
+      		var A = getVal(a);
+      		var B = getVal(b);
+
+          if (typeof A === 'string' || A instanceof String){
+            if(A < B) {
+              return -1*f;
+            }
+            if(A > B) {
+              return 1*f;
+            }
+            return 0;
+          }
+          else{
+            return f*(A - B);
+          }
+      	});
+
+      	function getVal(elm){
+      		var v = $(elm).children('td').eq(n).text().toUpperCase().replace(',', '');
+
+      		if($.isNumeric(v)){
+if(v < 0){
+  v =parseFloat(v, 10).toFixed(2)*-1*-1;
+  //console.log(v,parseFloat(v, 10).toFixed(2));
+}
+else if((v % 1) == 0){
+              v = parseInt(v,10);
+
+            }else{
+              v = parseFloat(v,10).toFixed(2);
+            }
+            ////console.log(v);
+      		}
+      		return v;
+      	}
+
+      	$.each(rows, function(index, row) {
+      		$('#map-data').children('tbody').append(row);
+      	});
+      }
+      var f_hero_column = 1;
+      var f_popularity_column = 1;
+      var f_games_played_column = 1;
+      var f_ban_rate_column = 1;
+      var f_win_rate_column = 1;
+      var f_change_column = 1;
+      var f_win_column = 1;
+      var f_loss_column = 1;
+      var f_type_column = 1;
+
+
+
+      $(document).on("click", "#hero_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_popularity_column = 1;
+        f_games_played_column = 1;
+            f_ban_rate_column = 1;
+            f_win_rate_column = 1;
+            f_win_column = 1;
+            f_loss_column = 1;
+            f_type_column = 1;
+            f_change_column = 1;
+          f_hero_column *= -1;
+          if(f_hero_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_hero_column,n);
+          $('tr').each(function(){
+          //
+          });
+      });
+
+
+      $(document).on("click", "#popularity_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_games_played_column = 1;
+
+        f_win_rate_column = 1;
+        f_win_column = 1;
+        f_loss_column = 1;
+        f_change_column = 1;
+        f_type_column = 1;
+
+          f_popularity_column *= -1;
+          f_ban_rate_column = 1;
+          if(f_popularity_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_popularity_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+      $(document).on("click", "#games_played_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_popularity_column = 1;
+
+        f_win_rate_column = 1;
+        f_win_column = 1;
+        f_loss_column = 1;
+        f_change_column = 1;
+        f_type_column = 1;
+
+          f_games_played_column *= -1;
+          f_ban_rate_column = 1;
+          if(f_games_played_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_games_played_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+
+      $(document).on("click", "#ban_rate_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_popularity_column = 1;
+
+        f_win_rate_column = 1;
+        f_win_column = 1;
+        f_type_column = 1;
+
+        f_loss_column = 1;
+f_change_column = 1;
+          f_games_played_column *= -1;
+          f_ban_rate_column = 1;
+          if(f_games_played_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_games_played_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+      $(document).on("click", "#win_rate_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_games_played_column = 1;
+        f_popularity_column = 1;
+
+        f_win_column = 1;
+        f_loss_column = 1;
+        f_type_column = 1;
+
+          f_win_rate_column *= -1;
+          f_change_column = 1;
+f_ban_rate_column = 1;
+          if(f_win_rate_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_win_rate_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+      $(document).on("click", "#wins_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_games_played_column = 1;
+        f_win_rate_column = 1;
+        f_type_column = 1;
+        f_popularity_column = 1;
+
+        f_change_column = 1;
+f_ban_rate_column = 1;
+        f_loss_column = 1;
+
+          f_win_column *= -1;
+          if(f_win_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_win_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+      $(document).on("click", "#losses_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_games_played_column = 1;
+        f_win_rate_column = 1;
+        f_type_column = 1;
+        f_popularity_column = 1;
+
+        f_win_column = 1;
+        f_change_column = 1;
+
+f_ban_rate_column = 1;
+          f_loss_column *= -1;
+          if(f_loss_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_loss_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+      $(document).on("click", "#value_change_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+        f_hero_column = 1;
+        f_games_played_column = 1;
+        f_win_rate_column = 1;
+        f_type_column = 1;
+        f_popularity_column = 1;
+
+        f_win_column = 1;
+f_ban_rate_column = 1;
+          f_change_column *= -1;
+          if(f_change_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_change_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+
+
+      $(document).on("click", "#type_column", function(){
+        $('tr.global-talent-table').remove();
+        $('#map-data th i').removeClass('selected-icon').removeClass('fa-sort-up').addClass('fa-sort-down');
+        $(this).find('i').addClass('selected-icon').removeClass('fa-sort-down').removeClass('fa-sort-up');
+
+        f_hero_column = 1;
+        f_games_played_column = 1;
+        f_win_rate_column = 1;
+        f_loss_column = 1;
+        f_win_column = 1;
+        f_change_column = 1;
+        f_ban_rate_column = 1;
+        f_popularity_column = 1;
+
+        f_type_column *= -1;
+
+
+
+          if(f_type_column == -1){
+            $(this).find('i').addClass('fa-sort-down');
+        }
+        else{
+          $(this).find('i').addClass('fa-sort-up');
+
+        }
+          var n = $(this).prevAll().length;
+          sortTable(f_type_column,n);
+          $('tr').each(function(){
+
+          });
+      });
+
+
+
+      </script>
+<script>
+$('#timeframe').change(function(){
+
+  $('#type-label').show();
+  $('#type-label select').prop('disabled', false);
+
+
+  if($('#timeframe').find(":selected").val() == "2.41"){
+    $('#type-label').hide();
+    $('#type-label select').attr('disabled', 'disabled');
+
+  }else if($('#timeframe').find(":selected").val() == "2.42"){
+      $('#type-label').hide();
+      $('#type-label select').attr('disabled', 'disabled');
+
+    }
+});
+
+
+$('#timeframe_type').change(function(){
+if($('#timeframe_type').find(":selected").val() == "minor"){
+  $('#minor_timeframe-label').show();
+  $('#minor_timeframe').prop('disabled', false);
+  $('#minor_timeframe-label .ms-choice').removeClass('disabled');
+
+  /*
+  if($("#minor_timeframe-label .ms-drop ul li:nth-child(2) input").prop('checked') != true){
+    $('#minor_timeframe-label .ms-drop ul li:nth-child(2) input').trigger('click');
+  }
+  */
+
+  $('#major_timeframe-label').hide();
+  $('#major_timeframe').prop('disabled', true);
+
+
+  $('#days_timeframe-label').hide();
+  $('#days_timeframe').prop('disabled', true);
+
+}else if($('#timeframe_type').find(":selected").val() == "major"){
+  $('#major_timeframe-label').show();
+  $('#major_timeframe').prop('disabled', false);
+  $('#major_timeframe-label .ms-choice').removeClass('disabled');
+
+  /*
+  if($("#major_timeframe-label .ms-drop ul li:nth-child(2) input").prop('checked') != true){
+    $('#major_timeframe-label .ms-drop ul li:nth-child(2) input').trigger('click');
+  }
+  */
+  $('#minor_timeframe-label').hide();
+  $('#minor_timeframe').prop('disabled', true);
+
+  $('#days_timeframe-label').hide();
+  $('#days_timeframe').prop('disabled', true);
+
+}else if($('#timeframe_type').find(":selected").val() == "days"){
+  $('#days_timeframe-label').show();
+  $('#days_timeframe').prop('disabled', false);
+  $('#days_timeframe-label .ms-choice').removeClass('disabled');
+
+
+  $('#minor_timeframe-label').hide();
+  $('#minor_timeframe').prop('disabled', true);
+
+  $('#major_timeframe-label').hide();
+  $('#major_timeframe').prop('disabled', true);
+}else if($('#timeframe_type').find(":selected").val() == "last_update"){
+  $('#minor_timeframe-label').hide();
+  $('#major_timeframe-label').hide();
+
+}
+
+});
+
+</script>
+<div class="adDynamicBanner"></div>
+<footer>
+<section>
+<div class="footer-bottom">
+<div class="footer-logo"><img src="/includes/images/logo/heroesprofilelogo.png"/></div>
+<div class="footer-info">
+<a class="patreon-button" href="https://www.patreon.com/heroesprofile" target="_blank">Remove Ads/Patreon</a>
+<a class="patreon-button" href="/Esports" style="background-color:#315bb6; margin-left:10px;" target="_blank">Community Esports</a>
+<a class="patreon-button" href="https://api.heroesprofile.com" style="background-color:#007272; margin-left:10px; margin-right:auto;" target="_blank">Heroes Profile API</a>
+<ul class="footer-menu"><li><a href="/Privacy-Policy" rel="nofollow">Privacy Policy</a></li></ul>
+<p class="section-callout">Heroes Profile provides individual player statistics and information for Heroes of the Storm.
+View Leaderboard data, player comparisons, Calculated MMR, Match History, Extensive Match statistics, and Player statistics for each hero and map.
+
+
+
+
+</p></div>
+</div>
+<div class="replay-stats-header" style="margin-left:auto; margin-right:auto;">48,510,171 replays | Patch 2.55.3.89754 | Up to date as of:  <span class="date-format-2">2023-05-13 20:48:35</span></div>
+<div style="text-align:center; margin-top:10px; font-size:.8em;"><a href="https://skilltreedevelopment.com">Skill Tree Development, LLC</a></div>
+</section>
+<!--<div class="creator-information"><a target="_blank" href="http://turtleboxstudios.com" alt="TurtleBox Studios"><img alt="TurtleBox Studios" src="/includes/images/logo/turtlebox-studios.png"/></a></div>-->
+<div class="disclaimer" style="max-width:90%"><p>Heroes Profile is funded by its developers.  If you like the site, consider donating to our <a href="https://www.patreon.com/heroesprofile" target="_blank">Patreon</a>.  even $2 helps. Heroes Profile has no affiliation with Blizzard or Heroes of the Storm. Upload your replays to Heroes Profile at <a href="https://api.heroesprofile.com/upload" target="_blank">Heroes Profile Uploader</a> for most accurate data.</p></div>
+</footer>
+<div class="modal-generic" data-active-player="" id="modal-uploader-mac">
+<div class="modal-compare-content">
+<div class="choose-compare-type compare-box-section">
+<!--<div class="back"><</div>-->
+<div class="close">x</div>
+<h1>Use HeroesProfile Uploader to upload your replays</h1>
+            In order to view accurate data for your matches, regularly upload via the heroesprofile uploader.
+            <ul class="modal-list">
+<li>Automatically uploads replays</li>
+</ul>
+<img alt="Electron Uploader" src="\includes\images\miscellaneous\electronUploader.PNG"/>
+<a class="choose-button" href="https://github.com/Heroes-Profile/heroesprofile-electron-uploader/releases/download/v2.0.0/osx.zip" target="_blank">Download for Mac</a>
+<a class="choose-button" href="https://github.com/Heroes-Profile/heroesprofile-electron-uploader" style="background-color:#007272;" target="_blank">Github Repository</a>
+</div>
+</div>
+</div>
+<div class="modal-generic" data-active-player="" id="modal-uploader-windows">
+<!--<div class="back"><</div>-->
+<div class="modal-compare-content">
+<div class="choose-compare-type compare-box-section">
+<div class="close">x</div>
+<h1>Use HeroesProfile Uploader to upload your replays</h1>
+            In order to view accurate data for your matches, regularly upload via the heroesprofile uploader.
+            <ul class="modal-list">
+<li>Automatically uploads replays</li>
+<li>Pre-match Game analysis</li>
+<li>Post-match Game Analysis</li>
+<li>Twitch Extension</li>
+</ul>
+<img alt="Windows Uploader" src="\includes\images\miscellaneous\windowsUploader.PNG"/>
+<a class="choose-button" href="https://github.com/Heroes-Profile/HeroesProfile.Uploader/releases/download/v2.0.8/HeroesProfileUploaderSetup.exe" style="background-color:#315bb6" target="_blank">Download for Windows</a>
+<a class="choose-button" href="https://github.com/Heroes-Profile/HeroesProfile.Uploader" style="background-color:#007272;" target="_blank">Github Repository</a>
+</div>
+</div>
+</div>
+<div class="modal" id="heroesprofile-alert2">
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close close-window">×</span>
+<p>Heroes Profile is funded by its developers.  If you like the site, consider donating to our <a href="https://www.patreon.com/heroesprofile" target="_blank">Patreon</a>.  even $2 helps. The data on this website relies on replays uploaded to <a href="https://api.heroesprofile.com/upload" target="_blank">Heroes Profile API</a>. Make sure you go there to upload your data.  If you do not upload your replays, your data will not be accurate. <br/>This site uses cookies in order to store your recent profile views. To learn more, view our <a href="#">Privacy Policy</a></p>
+</div>
+</div>
+<div id="loading-div" style="display:none;"><i class="fas fa-sync fa-spin"></i></div>
+<script>
+var modal = document.getElementById('heroesprofile-alert2');
+/* if they haven't been to the site before, show the modal window.*/
+
+function displayLoading(){
+
+  $("#loading-div").css('display', 'flex');
+
+}
+
+function hideLoading(){
+$("#loading-div").hide();
+}
+
+
+
+hideLoading();
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        window.location.reload()
+    }
+};
+
+$(document).ready(function(){
+
+  $('form').submit(function(){
+    displayLoading();
+  });
+  $('.flyout-menu a').click(function(){
+    displayLoading();
+  });
+
+  function localStorageExist(){
+      var test = 'test';
+      try {
+          localStorage.setItem(test, test);
+          localStorage.removeItem(test);
+          return true;
+      } catch(e) {
+          return false;
+      }
+  }
+
+  if(localStorageExist() === true){
+    if(!localStorage.getItem("uploaderTimestamp1") || localStorage.getItem("uploaderTimestamp1") <= todaysdate){
+      if(localStorage.getItem("uploaderAlert1") != "true"){
+        var mac = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
+        var todaysdate = new Date().getTime();
+        //mac = true;
+        if(breakpointMobile != true){
+          if(mac){
+            $('#modal-uploader-mac').show()
+          }else{
+            $('#modal-uploader-windows').show()
+          }
+          var uploaderdate = new Date();
+          uploaderdate = uploaderdate.setDate(uploaderdate.getDate()+30);
+          localStorage.setItem("uploaderAlert1", "true");
+          localStorage.setItem("uploaderTimestamp1", uploaderdate);
+        }
+      }
+    }
+
+    //This is throwing an error for some reason
+
+    if(localStorage.getItem("alertshown2") != "true"){
+      $('#heroesprofile-alert').addClass('expanded');
+    }
+
+
+    $('.close-window').click(function() {
+      $('#heroesprofile-alert').removeClass('expanded');
+      localStorage.setItem("alertshown2", "true");
+    });
+
+  }
+
+  $('.modal-generic .close').click(function(){
+    $('.modal-generic').hide();
+  });
+});
+
+
+
+
+$('.date-format-2, .date-format').each(function(){
+var originaldatehtml = $(this).html();
+var originaldate = moment.tz(originaldatehtml,'Atlantic/Reykjavik');
+
+$(this).html(originaldate.clone().local().format('MM/DD/YYYY h:mm:ss a'));
+$(this).show();
+$(this).removeClass('date-format-2, date-format');
+});
+
+
+$('.mobile-menu-button').click(function(){
+  $('.menu-wrapper').slideToggle();
+});
+
+
+
+
+</script>
+</div></body>
+</html>
